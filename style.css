@@ -1,0 +1,50 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    height: 93vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:rgba(201, 255, 237, 0.976);
+}
+
+.logo_icon {
+    padding: 4rem;
+    justify-self: flex-start;
+}
+
+.virus_icon_btn_space {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} 
+
+.virus_icon {
+    width: 300px;
+    height: 300px;
+}
+
+.btn {
+    padding: 1rem 4rem;
+    background: white;
+    border-radius: 2rem;
+    border: 2px solid black;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    /* height: 3rem; */
+    font-size: 20px;
+}
