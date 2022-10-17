@@ -4,21 +4,30 @@
 }
 
 .main {
-    display: flex;
+    /* display: flex;
     flex: 1;
     height: 93vh;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color:rgba(201, 255, 237, 0.976);
+    */
+    position: sticky;
+    height: 93vh;
+    background-color:rgba(201, 255, 237, 0.976); 
 }
 
+.icon_space{
+    text-align: center;
+    padding-top: 50px;
+}
 .logo_icon {
-    padding: 4rem;
+    
     justify-self: flex-start;
 }
 
 .virus_icon_btn_space {
+    margin-top: 7%;
+    height: 30%;
     justify-self: flex-end;
     display: flex;
     justify-content: space-around;
@@ -26,8 +35,8 @@
 } 
 
 .virus_icon {
-    width: 300px;
-    height: 300px;
+    width: 14vw;
+    height: 14vw;
 }
 
 .btn {
@@ -41,10 +50,13 @@
 }
 
 .footer {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    /* height: 3rem; */
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    /* inset: 0; */
+    /* text-align: center; */
+}
+
+.copy_right {
     font-size: 20px;
 }
