@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css">
+    <meta name=”viewport” content=”width=device-width,initial-scale=1″>
     <meta charset="utf-8">
     <style>
       @import url("style/global.css");
@@ -11,9 +13,32 @@
 
   <body class="body">
     <main class="main">
-      <div class="explain_img_space">
-        <img src="icon/index_image.png" alt="説明画像" class="explain_img">
+
+      <!-- swiper Start -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="icon/index_image.png" alt="説明画像" class="explain_img">
+          </div>
+          
+          <div class="swiper-slide">
+            <img src="icon/index_image.png" alt="説明画像" class="explain_img">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper_button_prev_space">
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="swiper_button_next_space">
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
+      <!-- Swiper End -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+      <script src="explain.js"></script>
   
       <div class="virus_icon_btn_space">
         <img src="icon/virus.png" alt="アイコン" class="virus_icon">
