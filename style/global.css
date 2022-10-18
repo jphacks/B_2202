@@ -1,0 +1,21 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: sticky;
+    height: 95vh;
+    background-color:rgba(201, 255, 237, 0.976); 
+}
+
+.footer {
+    /* position: sticky;
+    width: 100%; */
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.copy_right {
+    font-size: 2vh;
+}
