@@ -1,0 +1,33 @@
+.thankyou_ward_space {
+    padding: 13vh;
+    text-align: center;
+}
+
+.thankyou_ward{
+    font-size: 8vw;
+}
+
+.virus_icon_btn_space {
+    margin-top: 7vh;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} 
+
+.virus_icon {
+    width: 33vh;
+    height: 33vh;
+}
+
+.btn {
+    padding: 2vh 4vw;
+    background: white;
+    border-radius: 3vw;
+    border: 0.2vw solid black;
+    color: black;
+    min-width: 10vw;
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 6vh;
+}
