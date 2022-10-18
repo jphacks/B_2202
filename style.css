@@ -4,30 +4,23 @@
 }
 
 .main {
-    /* display: flex;
-    flex: 1;
-    height: 93vh;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    */
     position: sticky;
-    height: 93vh;
+    height: 95vh;
     background-color:rgba(201, 255, 237, 0.976); 
 }
 
-.icon_space{
+.logo_icon_space{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 15vh;
 }
+
 .logo_icon {
-    
+    width: 50vw;
     justify-self: flex-start;
 }
 
 .virus_icon_btn_space {
-    margin-top: 7%;
-    height: 30%;
+    margin-top: 7vh;
     justify-self: flex-end;
     display: flex;
     justify-content: space-around;
@@ -35,28 +28,27 @@
 } 
 
 .virus_icon {
-    width: 14vw;
-    height: 14vw;
+    width: 33vh;
+    height: 33vh;
 }
 
 .btn {
-    padding: 1rem 4rem;
+    padding: 2vh 4vw;
     background: white;
-    border-radius: 2rem;
-    border: 2px solid black;
+    border-radius: 3vw;
+    border: 0.2vw solid black;
     color: black;
-    font-size: 2rem;
-    margin-bottom: 3%;
+    font-size: 3vw;
+    margin-bottom: 6vh;
 }
 
 .footer {
-    position: sticky;
-    width: 100%;
+    /* position: sticky;
+    width: 100%; */
     text-align: center;
-    /* inset: 0; */
-    /* text-align: center; */
+    padding-top: 1vh;
 }
 
 .copy_right {
-    font-size: 20px;
+    font-size: 2vh;
 }
