@@ -20,25 +20,25 @@
 } 
 
 .virus_icon {
-    width: 33vmin;
-    width: 33dvin;
-    height: 33vmin;
-    height: 33dvmin;
+    width: 31vmin;
+    width: 31dvin;
+    height: 31vmin;
+    height: 31dvmin;
 }
 
 .btn {
-    padding: 2vmin 2vmin;
-    padding: 2dvmin 2dvmin;
+    padding: 1vmin 1vmin;
+    padding: 1dvmin 1dvmin;
     background: white;
     border-radius: 3vmax;
     border-radius: 3dvmax;
     border: 0.2vmax solid black;
     border: 0.2dvmax solid black;
     color: black;
-    min-width: 10vw;
-    min-width: 10dvw;
-    font-size: 2vw;
-    font-size: 2dvw;
+    min-width: 15vw;
+    min-width: 15dvw;
+    font-size: 3vw;
+    font-size: 3dvw;
     text-align: center;
     margin-bottom: 6vh;
     margin-bottom: 6dvh;
