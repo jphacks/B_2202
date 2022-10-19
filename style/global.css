@@ -5,6 +5,9 @@
 
 .main {
     /* position: sticky; */
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
     height: 93vh;
     height: 93dvh;
     width: 100vw;
