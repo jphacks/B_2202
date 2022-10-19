@@ -23,8 +23,8 @@
 .virus_icon {
     width: 31vmin;
     width: 31dvin;
-    height: 31vmin;
-    height: 31dvmin;
+    /* height: 31vmin;
+    height: 31dvmin; */
 }
 
 .btn {
