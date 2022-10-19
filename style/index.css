@@ -1,12 +1,12 @@
 .logo_icon_space{
     text-align: center;
-    padding-top: 14vmin;
-    padding-top: 14dmin;
+    padding-top: 14vh;
+    padding-top: 14dvh;
 }
 
 .logo_icon {
-    width: 70vmin;
-    width: 70dvmin;
+    width: 80vmin;
+    width: 80dvmin;
     justify-self: flex-start;
 }
 
@@ -27,13 +27,13 @@
 }
 
 .btn {
-    padding: 2vh 4vw;
-    padding: 2dvh 4dvw;
+    padding: 2vmin 2vmin;
+    padding: 2dvmin 2dvmin;
     background: white;
-    border-radius: 3vw;
-    border-radius: 3dvw;
-    border: 0.2vw solid black;
-    border: 0.2dvw solid black;
+    border-radius: 3vmax;
+    border-radius: 3dvmax;
+    border: 0.2vmax solid black;
+    border: 0.2dvmax solid black;
     color: black;
     min-width: 10vw;
     min-width: 10dvw;
