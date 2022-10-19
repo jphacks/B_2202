@@ -1,12 +1,12 @@
 .logo_icon_space{
     text-align: center;
-    padding-top: 15vh;
-    padding-top: 15dvh;
+    padding-top: 14vmin;
+    padding-top: 14dmin;
 }
 
 .logo_icon {
-    width: 50vw;
-    width: 50dvw;
+    width: 70vmin;
+    width: 70dvmin;
     justify-self: flex-start;
 }
 
@@ -20,10 +20,10 @@
 } 
 
 .virus_icon {
-    width: 33vh;
-    width: 33dvh;
-    height: 33vh;
-    height: 33dvh;
+    width: 33vmin;
+    width: 33dvin;
+    height: 33vmin;
+    height: 33dvmin;
 }
 
 .btn {
