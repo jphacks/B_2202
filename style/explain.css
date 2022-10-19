@@ -1,0 +1,66 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 93vh;
+    height: 93dvh;
+    width: 100vw;
+    background-color:rgba(201, 255, 237, 0.976); 
+}
+
+.swiper-container {
+    text-align: center;
+}
+
+.explain_img {
+    width: 60vw;
+    width: 60dvw;
+}
+
+.virus_icon_btn_space {
+    margin-top: 3vh;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} 
+
+.virus_icon {
+    width: 16vmin;
+    width: 16dvmin;
+}
+
+.btn {
+    padding: 1vmin 1vmin;
+    padding: 1dvmin 1dvmin;
+    background: white;
+    border-radius: 3vmax;
+    border-radius: 3dvmax;
+    border: 0.2vmax solid black;
+    border: 0.2dvmax solid black;
+    color: black;
+    min-width: 15vw;
+    min-width: 15dvw;
+    font-size: 3vw;
+    font-size: 3dvw;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.footer {
+    /* position: sticky;
+    width: 100%; */
+    height: 7vh;
+    height: 7dvh;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.copy_right {
+    font-size: 2vmin;
+    font-size: 2dvmin;
+}

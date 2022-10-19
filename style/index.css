@@ -1,0 +1,52 @@
+.logo_icon_space{
+    text-align: center;
+    padding-top: 10vh;
+    padding-top: 10dvh;
+}
+
+.logo_icon {
+    width: 80vmin;
+    width: 80dvmin;
+    justify-self: flex-start;
+}
+
+.virus_icon_btn_space {
+    /* margin-top: 7vh;
+    margin-top: 7dvh; */
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} 
+
+.virus_icon {
+    width: 31vmin;
+    width: 31dvmin;
+}
+
+.btn {
+    padding: 1vmin 1vmin;
+    padding: 1dvmin 1dvmin;
+    background: white;
+    border-radius: 3vmax;
+    border-radius: 3dvmax;
+    border: 0.2vmax solid black;
+    border: 0.2dvmax solid black;
+    color: black;
+    min-width: 15vw;
+    min-width: 15dvw;
+    font-size: 3vw;
+    font-size: 3dvw;
+    text-align: center;
+    margin-bottom: 6vh;
+    margin-bottom: 6dvh;
+}
+
+.assert_ward_space {
+    text-align: center;
+}
+
+.assert_ward {
+    font-size: 4vmin;
+    font-size: 4dvmin;
+}

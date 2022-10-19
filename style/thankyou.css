@@ -1,0 +1,48 @@
+.thankyou_ward_space {
+    padding-top: 13vh;
+    padding-top: 13dvh;
+    padding-bottom: 13vh;
+    padding-bottom: 13dvh;
+    text-align: center;
+}
+
+.thankyou_ward{
+    color: #191970;
+    font: small-caps bold 24px/1 sans-serif;
+    font-size: 8vw;
+    font-size: 8dvw;
+}
+
+.virus_icon_btn_space {
+    margin-top: 7vh;
+    margin-top: 7dvh;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} 
+
+.virus_icon {
+    width: 31vmin;
+    width: 31dvmin;
+    /* height: 31vmin;
+    height: 31dvmin; */
+}
+
+.btn {
+    padding: 1vmin 1vmin;
+    padding: 1dvmin 1dvmin;
+    background: white;
+    border-radius: 3vmax;
+    border-radius: 3dvmax;
+    border: 0.2vmax solid black;
+    border: 0.2dvmax solid black;
+    color: black;
+    min-width: 16vw;
+    min-width: 16dvw;
+    font-size: 4vw;
+    font-size: 4dvw;
+    text-align: center;
+    margin-bottom: 6vh;
+    margin-bottom: 6dvh;
+}
