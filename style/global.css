@@ -13,9 +13,9 @@
     /* position: sticky;
     width: 100%; */
     text-align: center;
-    padding-top: 1vh;
+    padding-top: 1dvh;
 }
 
 .copy_right {
-    font-size: 2vh;
+    font-size: 2dvh;
 }
