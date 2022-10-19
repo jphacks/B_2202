@@ -1,14 +1,17 @@
 .logo_icon_space{
     text-align: center;
+    padding-top: 15vh;
     padding-top: 15dvh;
 }
 
 .logo_icon {
+    width: 50vw;
     width: 50dvw;
     justify-self: flex-start;
 }
 
 .virus_icon_btn_space {
+    margin-top: 7vh;
     margin-top: 7dvh;
     justify-self: flex-end;
     display: flex;
@@ -17,18 +20,26 @@
 } 
 
 .virus_icon {
+    width: 33vh;
     width: 33dvh;
+    height: 33vh;
     height: 33dvh;
 }
 
 .btn {
+    padding: 2vh 4vw;
     padding: 2dvh 4dvw;
     background: white;
+    border-radius: 3vw;
     border-radius: 3dvw;
+    border: 0.2vw solid black;
     border: 0.2dvw solid black;
     color: black;
+    min-width: 10vw;
     min-width: 10dvw;
+    font-size: 2vw;
     font-size: 2dvw;
     text-align: center;
+    margin-bottom: 6vh;
     margin-bottom: 6dvh;
 }

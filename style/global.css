@@ -5,6 +5,7 @@
 
 .main {
     position: sticky;
+    height: 95vh;
     height: 95dvh;
     background-color:rgba(201, 255, 237, 0.976); 
 }
@@ -13,9 +14,11 @@
     /* position: sticky;
     width: 100%; */
     text-align: center;
+    padding-top: 1vh;
     padding-top: 1dvh;
 }
 
 .copy_right {
+    font-size: 2vh;
     font-size: 2dvh;
 }
