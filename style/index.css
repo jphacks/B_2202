@@ -25,6 +25,7 @@
 }
 
 .btn {
+    text-decoration: none;
     padding: 1vmin 1vmin;
     padding: 1dvmin 1dvmin;
     background: white;
@@ -32,14 +33,26 @@
     border-radius: 3dvmax;
     border: 0.2vmax solid black;
     border: 0.2dvmax solid black;
-    color: black;
     min-width: 15vw;
     min-width: 15dvw;
+    color: white;
     font-size: 3vw;
     font-size: 3dvw;
     text-align: center;
     margin-bottom: 6vh;
     margin-bottom: 6dvh;
+}
+
+.btn_start {
+    border: 0.2vmax solid #8a2700;
+    border: 0.2dvmax solid #8a2700;
+    background-color: #E94A0C;
+}
+
+.btn_explain {
+    border: 0.2vmax solid #0b0060;
+    border: 0.2dvmax solid #0b0060;
+    background-color: #4a34ee;
 }
 
 .assert_ward_space {

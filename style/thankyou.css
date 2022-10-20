@@ -30,6 +30,7 @@
 }
 
 .btn {
+    text-decoration: none;
     padding: 1vmin 1vmin;
     padding: 1dvmin 1dvmin;
     background: white;
@@ -37,12 +38,18 @@
     border-radius: 3dvmax;
     border: 0.2vmax solid black;
     border: 0.2dvmax solid black;
-    color: black;
     min-width: 16vw;
     min-width: 16dvw;
+    color: white;
     font-size: 4vw;
     font-size: 4dvw;
     text-align: center;
     margin-bottom: 6vh;
     margin-bottom: 6dvh;
+}
+
+.btn_back {
+    border: 0.2vmax solid #286932;
+    border: 0.2dvmax solid #286932;
+    background-color: #67f27c;
 }
