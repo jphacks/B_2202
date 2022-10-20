@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" /> -->
+  <!--media pipe: 手の骨格取得や認識結果の描画に使用-->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/three@0.140.2/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.137.4/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://unpkg.com/three@0.137.4/examples/js/loaders/GLTFLoader.js"></script>
+
+  <!--opencv.js: 手の傾きや中心位置を計算するために使用-->
+  <script src="https://docs.opencv.org/3.4.1/opencv.js"></script>
+
+  <script src="./script.js" type="module"></script>
+
+</head>
+
+<style>
+  progress {
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  progress::-webkit-progress-bar {
+    border-radius: 15px;
+  }
+
+  progress::-webkit-progress-value {
+    border-radius: 15px;
+  }
+
+  progress::-moz-progress-bar {
+    border-radius: 15px;
+  }
+
+  progress::-ms-fill {
+    border-radius: 15px;
+  }
+
+  ::-webkit-progress-bar {
+    background-color: #ff007b;
+  }
+
+  ::-webkit-progress-value {
+    background-color: #02b2fe;
+  }
+</style>
+
+<body>
+  <!-- <canvas class="js-three"></canvas> -->
+  <video id="input_video" style="position:absolute; display:none;"></video>
+  <!-- <img id="beam" src="./beam.png" style="position:absolute; display:none;"> -->
+  <canvas id="output_canvas" style="position:absolute;"></canvas>
+
+  <!-- <canvas id="canvas" class="canvas" style="position:absolute; display:none;"></canvas> -->
+
+  <!-- 3Dモデルの表示 -->
+  <canvas id="js-three" style="position:absolute;"></canvas>
+
+  <div class="centering" style="padding-top: 1%; padding-left: 5%;">
+    <!-- <label for="HP" style="position:relative; padding-right:1%; background-color:  #ddd;text-align: auto;">HP</label> -->
+    <progress id="HP" value="100" max="100" style="position:absolute;"></progress>
+  </div>
+
+
+  <!-- <video src="" id="camera" class="camera" playsinline></video> -->
+</body>
+
+</html>
