@@ -57,6 +57,17 @@
 
 .assert_ward_space {
     text-align: center;
+    animation: flash 1.8s linear infinite;
+}
+
+@keyframes flash {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
 
 .assert_ward {
