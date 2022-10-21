@@ -46,4 +46,4 @@
 ### 独自技術
 #### ハッカソンで開発した独自機能・技術
 * MediaPipeとThree.jsを用いた、手の認識に伴うモデルの表示、変更  
-該当箇所：[camera.js](./camera.js), [wash.html](./wash.html)
+該当箇所：[camera.js](./camera.js), [wash.html](./wash.html), [script.js](./script.js)
