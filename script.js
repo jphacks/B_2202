@@ -46,10 +46,10 @@ async function myAsyncFunction() {
   model_count += 1;
   console.log("model_count:" + model_count);
   if (model_count == 4) {
-    delay_time = 0.1;
+    delay_time = 3.0;
   }
   // hand_entry = 0;
-  // myAsyncFunction();
+  myAsyncFunction();
   //Do what you want here too
 }
 
@@ -117,31 +117,31 @@ function init1() {
 
     if (results.multiHandLandmarks.length >= 1) {
       if (hand_entry == 0) {
-        hand_entry = 1;
-        myAsyncFunction();
+        // hand_entry = 1;
+        // myAsyncFunction();
       }
       for (const landmarks of results.multiHandLandmarks) {
         //骨格の表示
-        drawConnectors(canvasCtx, landmarks, HAND_CONNECTIONS, {
-          color: "#00FF00",
-          lineWidth: 2,
-        });
-        //関節の表示
-        drawConnectors(canvasCtx, landmarks, {
-          color: "#FF0000",
-          lineWidth: 1,
-          radius: 2,
-        });
+        // drawConnectors(canvasCtx, landmarks, HAND_CONNECTIONS, {
+        //   color: "#00FF00",
+        //   lineWidth: 2,
+        // });
+        // //関節の表示
+        // drawConnectors(canvasCtx, landmarks, {
+        //   color: "#FF0000",
+        //   lineWidth: 1,
+        //   radius: 2,
+        // });
         // init2()を呼び出すためのフラグ
         flag = 1;
       }
       if (flag == 1 && flag2 == 0) {
         init2();
-        //myAsyncFunction();
+        myAsyncFunction();
         flag2 = 1;
       }
     } else {
-      hand_entry = 0;
+      // hand_entry = 0;
       console.log("手をかざしてください");
     }
 
@@ -242,6 +242,8 @@ function init2() {
       model25.rotation.x -= Math.random() / 10;
       model25.rotation.y -= Math.random() / 10;
     } else if (model_flag != 0 && model_count == 4) {
+      model_last.rotation.y += 0.05;
+      model_last.position.z -= 0.5;
       // model25.rotation.x += Math.random() / 10;
       // model25.rotation.x -= Math.random() / 10;
       // model25.rotation.y -= Math.random() / 10;
@@ -265,11 +267,14 @@ function init2() {
     } else if (model_count == 4) {
       HP.value = 0;
       scene.remove(model25);
+      scene.add(model_last);
     } else if (model_count == 5) {
       // HP.value = 0;
-      scene.add(model_last);
-      window.location.href = 'thankyou.html'; //画面遷移
+      // scene.add(model_last);
+      window.location.href = "thankyou.html"; //画面遷移
       // scene.remove(model25);
+    } else if (model_count == 6) {
+      window.location.href = "thankyou.html"; //画面遷移
     }
     renderer.render(scene, camera);
     requestAnimationFrame(tick);
